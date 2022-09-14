@@ -39,4 +39,5 @@ def test_auth(client):
     token = response.json['token']
     assert token is not None
     
-
+def test_live(client):
+    assert False
